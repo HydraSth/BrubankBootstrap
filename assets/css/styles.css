@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Proxima-thin';
+    src: url("../../font/Fontspring-DEMO-proximanova-light.otf");
+}
+
+@font-face {
+    font-family: 'Proxima-Regular';
+    src: url("../../font/Fontspring-DEMO-proximanova-regular.otf");
+}
+
+@font-face {
+    font-family: 'Proxima-Bold';
+    src: url("../../font/Fontspring-DEMO-proximanova-bold.otf");
+}
+
+@font-face {
+    font-family: 'Proxima-Black';
+    src: url("../../font/Fontspring-DEMO-proximanova-black.otf");
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+li{
+    list-style:none;
+}
+
+.color{
+    margin: 0.5rem 2rem;
+    color: slateblue !important;
+    font-weight: bold;
+}
+#caja{
+    color: white !important;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: slateblue;
+    border-radius: 0.5rem;
+    margin-left: 6rem;
+}
+#banner{
+    object-fit: contain;
+    margin-left: 10rem;
+}
+#espacios{
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+#letraGrande{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.letraMediana{
+    font-size: x-large;
+    color: grey;
+}
+.imagen{
+    margin: 1%;
+}
+
+h2 {
+    font-family: "Proxima-Bold", sans-serif !important;
+  }
+  
+#simbolo_fail {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.Vw10{
+  width: 10vw!important;
+}
+.Vw20{
+  width: 20vw!important;
+}
+.Vw30{
+  width: 30vw!important;
+}
+.Vw40{
+  width: 40vw!important;
+}
+.Vw50{
+  width: 50vw!important;
+}
+
+.Vh40{
+  height: 40vw;
+}
+
+.MarginHA{
+  margin: 0 auto;
+}
+.FlexCenter{
+  justify-content: center;
+}
+.mt-10Vw{
+  margin-top: 10vw;
+}
+
+.ColorPurple{
+  color: rgb(97, 74, 217)!important;
+  letter-spacing: -0.26px;
+}
+
+.ColorGray{
+    letter-spacing: -0.13px;
+    line-height: 1.5;
+    color: rgb(106, 117, 135);
+}
+
+.ColorBlack{
+  letter-spacing: -0.26px;
+  color: rgb(52, 51, 72);
+}
+
+.Subtitle{
+  font-family: "Proxima-Bold",sans-serif!important;
+  font-size: 2vw!important;
+}
+
+.Description{
+  font-size: 1vw;
+}
+
+.SizeCard{
+  width: 15vw;
+  padding-right: 4.5vw;
+}
+
+.SizeCardL{
+  width: 12vw;
+  padding-right: 0vw;
+}
+
+.ACard svg{
+  width: 3vw;
+  display: inline-flex;
+  align-self: flex-end;
+}
+
+.ps-5Vw{
+  padding-left: 5vw;
+}
